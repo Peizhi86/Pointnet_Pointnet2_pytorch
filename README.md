@@ -1,4 +1,4 @@
-# Classify-tennis-ball-using-pointnet-
+# Classify-tennis-ball-using-pointnet++
 Use pointnet++ to classify tennis balls and return coordinates
 
 python realsense_pointnet2.py --model_path /Pointnet_Pointnet2_pytorch/log/classification/pointnet2_cls_ssg/checkpoints/best_model.pth --num_points 1024
