@@ -1,0 +1,97 @@
+2025-08-19 14:39:48,374 - Model - INFO - PARAMETER ...
+2025-08-19 14:39:48,374 - Model - INFO - Namespace(use_cpu=False, gpu='0', batch_size=24, num_category=40, num_point=1024, log_dir='pointnet2_cls_ssg', use_normals=False, use_uniform_sample=False, num_votes=3)
+2025-08-19 14:39:48,374 - Model - INFO - Load dataset ...
+2025-08-19 15:21:31,653 - Model - INFO - PARAMETER ...
+2025-08-19 15:21:31,653 - Model - INFO - Namespace(use_cpu=False, gpu='0', batch_size=24, num_category=40, num_point=1024, log_dir='pointnet2_cls_ssg', use_normals=False, use_uniform_sample=False, num_votes=3)
+2025-08-19 15:21:31,653 - Model - INFO - Load dataset ...
+2025-08-19 15:21:52,975 - Model - INFO - Test Instance Accuracy: 0.921117, Class Accuracy: 0.886891
+2025-08-20 12:07:32,617 - Model - INFO - PARAMETER ...
+2025-08-20 12:07:32,627 - Model - INFO - Namespace(use_cpu=False, gpu='0', batch_size=24, num_category=40, num_point=1024, log_dir='pointnet2_cls_ssg', use_normals=False, use_uniform_sample=False, num_votes=3, visual=True)
+2025-08-20 12:07:32,627 - Model - INFO - Visualization directory: log/classification/pointnet2_cls_ssg/visual
+2025-08-20 12:07:32,627 - Model - INFO - Load dataset ...
+2025-08-20 12:07:33,777 - Model - INFO - Saved visualization: batch_0_idx_0_true_airplane_pred_airplane.npy
+2025-08-20 12:07:35,847 - Model - INFO - Saved visualization: batch_10_idx_0_true_bed_pred_bed.npy
+2025-08-20 12:07:37,911 - Model - INFO - Saved visualization: batch_20_idx_0_true_bowl_pred_bowl.npy
+2025-08-20 12:07:39,978 - Model - INFO - Saved visualization: batch_30_idx_0_true_cup_pred_vase.npy
+2025-08-20 12:07:42,042 - Model - INFO - Saved visualization: batch_40_idx_0_true_flower_pot_pred_plant.npy
+2025-08-20 12:07:44,107 - Model - INFO - Saved visualization: batch_50_idx_0_true_lamp_pred_lamp.npy
+2025-08-20 12:07:46,174 - Model - INFO - Saved visualization: batch_60_idx_0_true_night_stand_pred_night_stand.npy
+2025-08-20 12:07:48,242 - Model - INFO - Saved visualization: batch_70_idx_0_true_plant_pred_plant.npy
+2025-08-20 12:07:50,310 - Model - INFO - Saved visualization: batch_80_idx_0_true_sofa_pred_sofa.npy
+2025-08-20 12:07:52,365 - Model - INFO - Saved visualization: batch_90_idx_0_true_toilet_pred_toilet.npy
+2025-08-20 12:07:54,433 - Model - INFO - Saved visualization: batch_100_idx_0_true_vase_pred_cup.npy
+2025-08-20 12:07:54,864 - Model - INFO - Test Instance Accuracy: 0.922006, Class Accuracy: 0.888297
+2025-08-20 12:07:54,864 - Model - INFO - Visualization files saved to: log/classification/pointnet2_cls_ssg/visual
+2025-08-20 12:12:32,292 - Model - INFO - PARAMETER ...
+2025-08-20 12:12:32,292 - Model - INFO - Namespace(use_cpu=False, gpu='0', batch_size=24, num_category=40, num_point=1024, log_dir='pointnet2_cls_ssg', use_normals=False, use_uniform_sample=False, num_votes=3, visual=True)
+2025-08-20 12:12:32,292 - Model - INFO - Visualization directory: log/classification/pointnet2_cls_ssg/visual
+2025-08-20 12:12:32,292 - Model - INFO - Load dataset ...
+2025-08-20 12:12:32,549 - Model - INFO - Created visualization files in log/classification/pointnet2_cls_ssg/visual
+2025-08-20 12:12:33,209 - Model - INFO - Batch 0, Sample 0: True=airplane, Pred=airplane [CORRECT]
+2025-08-20 12:12:35,541 - Model - INFO - Batch 10, Sample 0: True=bed, Pred=bed [CORRECT]
+2025-08-20 12:12:37,867 - Model - INFO - Batch 20, Sample 0: True=bowl, Pred=bowl [CORRECT]
+2025-08-20 12:12:40,203 - Model - INFO - Batch 30, Sample 0: True=cup, Pred=vase [WRONG]
+2025-08-20 12:12:42,523 - Model - INFO - Batch 40, Sample 0: True=flower_pot, Pred=plant [WRONG]
+2025-08-20 12:12:44,854 - Model - INFO - Batch 50, Sample 0: True=lamp, Pred=lamp [CORRECT]
+2025-08-20 12:12:47,183 - Model - INFO - Batch 60, Sample 0: True=night_stand, Pred=night_stand [CORRECT]
+2025-08-20 12:12:49,517 - Model - INFO - Batch 70, Sample 0: True=plant, Pred=plant [CORRECT]
+2025-08-20 12:12:51,846 - Model - INFO - Batch 80, Sample 0: True=sofa, Pred=sofa [CORRECT]
+2025-08-20 12:12:54,188 - Model - INFO - Batch 90, Sample 0: True=toilet, Pred=toilet [CORRECT]
+2025-08-20 12:12:56,517 - Model - INFO - Batch 100, Sample 0: True=vase, Pred=cup [WRONG]
+2025-08-20 12:12:57,024 - Model - INFO - Test Instance Accuracy: 0.921926, Class Accuracy: 0.887672
+2025-08-20 12:12:57,024 - Model - INFO - Visualization files saved to: log/classification/pointnet2_cls_ssg/visual
+2025-08-20 12:12:57,024 - Model - INFO - - Prediction file: modelnet40_pred.obj (green=correct, red=wrong)
+2025-08-20 12:12:57,024 - Model - INFO - - Ground truth file: modelnet40_gt.obj (blue=true labels)
+2025-08-20 12:17:30,897 - Model - INFO - PARAMETER ...
+2025-08-20 12:17:30,897 - Model - INFO - Namespace(use_cpu=False, gpu='0', batch_size=24, num_category=40, num_point=1024, log_dir='pointnet2_cls_ssg', use_normals=False, use_uniform_sample=False, num_votes=3, visual=True)
+2025-08-20 12:17:30,897 - Model - INFO - Visualization directory: log/classification/pointnet2_cls_ssg/visual
+2025-08-20 12:17:30,897 - Model - INFO - Load dataset ...
+2025-08-20 12:17:30,901 - Model - INFO - The size of test data is: 2468
+2025-08-20 12:17:31,825 - Model - INFO - Sample 0: True=airplane, Pred=airplane [CORRECT]
+2025-08-20 12:17:32,782 - Model - INFO - Sample 100: True=bathtub, Pred=bathtub [CORRECT]
+2025-08-20 12:17:33,725 - Model - INFO - Sample 200: True=bed, Pred=bed [CORRECT]
+2025-08-20 12:17:34,670 - Model - INFO - Sample 300: True=bookshelf, Pred=bookshelf [CORRECT]
+2025-08-20 12:17:35,612 - Model - INFO - Sample 400: True=bottle, Pred=bottle [CORRECT]
+2025-08-20 12:17:36,557 - Model - INFO - Sample 500: True=car, Pred=car [CORRECT]
+2025-08-20 12:17:37,721 - Model - INFO - Sample 600: True=chair, Pred=chair [CORRECT]
+2025-08-20 12:17:38,670 - Model - INFO - Sample 700: True=cone, Pred=cone [CORRECT]
+2025-08-20 12:17:39,615 - Model - INFO - Sample 800: True=desk, Pred=table [WRONG]
+2025-08-20 12:17:40,554 - Model - INFO - Sample 900: True=dresser, Pred=dresser [CORRECT]
+2025-08-20 12:17:41,497 - Model - INFO - Sample 1000: True=glass_box, Pred=glass_box [CORRECT]
+2025-08-20 12:17:42,443 - Model - INFO - Sample 1100: True=guitar, Pred=guitar [CORRECT]
+2025-08-20 12:17:43,593 - Model - INFO - Sample 1200: True=lamp, Pred=lamp [CORRECT]
+2025-08-20 12:17:44,534 - Model - INFO - Sample 1300: True=mantel, Pred=mantel [CORRECT]
+2025-08-20 12:17:45,478 - Model - INFO - Sample 1400: True=monitor, Pred=monitor [CORRECT]
+2025-08-20 12:17:46,420 - Model - INFO - Sample 1500: True=night_stand, Pred=dresser [WRONG]
+2025-08-20 12:17:47,375 - Model - INFO - Sample 1600: True=piano, Pred=piano [CORRECT]
+2025-08-20 12:17:48,326 - Model - INFO - Sample 1700: True=plant, Pred=plant [CORRECT]
+2025-08-20 12:17:49,481 - Model - INFO - Sample 1800: True=range_hood, Pred=range_hood [CORRECT]
+2025-08-20 12:17:50,433 - Model - INFO - Sample 1900: True=sofa, Pred=sofa [CORRECT]
+2025-08-20 12:17:51,379 - Model - INFO - Sample 2000: True=stool, Pred=stool [CORRECT]
+2025-08-20 12:17:52,322 - Model - INFO - Sample 2100: True=table, Pred=table [CORRECT]
+2025-08-20 12:17:53,273 - Model - INFO - Sample 2200: True=toilet, Pred=toilet [CORRECT]
+2025-08-20 12:17:54,216 - Model - INFO - Sample 2300: True=tv_stand, Pred=tv_stand [CORRECT]
+2025-08-20 12:17:55,364 - Model - INFO - Sample 2400: True=vase, Pred=cup [WRONG]
+2025-08-20 12:17:55,870 - Model - INFO - Test Instance Accuracy: 0.924434, Class Accuracy: 0.891864
+2025-08-20 12:17:55,871 - Model - INFO - Visualization files saved to: log/classification/pointnet2_cls_ssg/visual
+2025-08-20 12:17:55,871 - Model - INFO - Generated 2468 pairs of .obj files (pred/gt for each sample)
+2025-08-23 19:24:00,802 - Model - INFO - PARAMETER ...
+2025-08-23 19:24:00,805 - Model - INFO - Namespace(use_cpu=False, gpu='0', batch_size=24, num_category=41, num_point=1024, log_dir='pointnet2_cls_ssg', use_normals=False, use_uniform_sample=False, num_votes=3, visual=False)
+2025-08-23 19:24:00,805 - Model - INFO - Load dataset ...
+2025-08-23 19:24:00,809 - Model - INFO - The size of test data is: 2496
+2025-08-23 19:24:22,389 - Model - INFO - Test Instance Accuracy: 0.935497, Class Accuracy: 0.911764
+2025-08-25 10:45:21,302 - Model - INFO - PARAMETER ...
+2025-08-25 10:45:21,302 - Model - INFO - Namespace(use_cpu=False, gpu='0', batch_size=24, num_category=41, num_point=1024, log_dir='pointnet2_cls_ssg', use_normals=False, use_uniform_sample=False, num_votes=3, visual=False)
+2025-08-25 10:45:21,302 - Model - INFO - Load dataset ...
+2025-08-25 10:45:21,306 - Model - INFO - The size of test data is: 2576
+2025-08-25 10:45:44,247 - Model - INFO - Test Instance Accuracy: 0.934414, Class Accuracy: 0.906755
+2025-08-25 14:51:20,158 - Model - INFO - PARAMETER ...
+2025-08-25 14:51:20,158 - Model - INFO - Namespace(use_cpu=False, gpu='0', batch_size=24, num_category=10, num_point=1024, log_dir='pointnet2_cls_ssg', use_normals=False, use_uniform_sample=False, num_votes=3, visual=False)
+2025-08-25 14:51:20,158 - Model - INFO - Load dataset ...
+2025-08-25 14:51:20,161 - Model - INFO - The size of test data is: 971
+2025-08-25 14:51:29,326 - Model - INFO - Test Instance Accuracy: 0.988821, Class Accuracy: 0.985222
+2025-08-25 20:13:51,577 - Model - INFO - PARAMETER ...
+2025-08-25 20:13:51,577 - Model - INFO - Namespace(use_cpu=False, gpu='0', batch_size=24, num_category=10, num_point=1024, log_dir='pointnet2_cls_ssg', use_normals=False, use_uniform_sample=False, num_votes=3, visual=False)
+2025-08-25 20:13:51,577 - Model - INFO - Load dataset ...
+2025-08-25 20:13:51,581 - Model - INFO - The size of test data is: 891
+2025-08-25 20:13:59,874 - Model - INFO - Test Instance Accuracy: 0.982456, Class Accuracy: 0.980324
